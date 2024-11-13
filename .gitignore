@@ -1,0 +1,4 @@
+# Example .gitignore for sensitive data
+*.key
+*.pem
+secrets.env
