@@ -1,0 +1,62 @@
+{
+  "bindings": [
+    {
+      "members": [
+        "serviceAccount:vault-server@security-jobs-439810.iam.gserviceaccount.com"
+      ],
+      "role": "roles/cloudkms.cryptoKeyEncrypterDecrypter"
+    },
+    {
+      "members": [
+        "serviceAccount:service-76132256415@gcp-sa-cloudkms.iam.gserviceaccount.com"
+      ],
+      "role": "roles/cloudkms.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:service-76132256415@compute-system.iam.gserviceaccount.com"
+      ],
+      "role": "roles/compute.serviceAgent"
+    },
+    {
+      "members": [
+        "serviceAccount:hashicorp-vault-gcp@security-jobs-439810.iam.gserviceaccount.com"
+      ],
+      "role": "roles/compute.viewer"
+    },
+    {
+      "members": [
+        "serviceAccount:76132256415-compute@developer.gserviceaccount.com",
+        "serviceAccount:76132256415@cloudservices.gserviceaccount.com"
+      ],
+      "role": "roles/editor"
+    },
+    {
+      "members": [
+        "serviceAccount:hashicorp-vault-gcp@security-jobs-439810.iam.gserviceaccount.com"
+      ],
+      "role": "roles/iam.serviceAccountKeyAdmin"
+    },
+    {
+      "members": [
+        "serviceAccount:hashicorp-vault-gcp@security-jobs-439810.iam.gserviceaccount.com"
+      ],
+      "role": "roles/iam.serviceAccountUser"
+    },
+    {
+      "members": [
+        "user:momifea@gmail.com"
+      ],
+      "role": "roles/owner"
+    },
+    {
+      "members": [
+        "serviceAccount:hashicorp-vault-gcp@security-jobs-439810.iam.gserviceaccount.com",
+        "serviceAccount:vault-logger-svc-acct@security-jobs-439810.iam.gserviceaccount.com"
+      ],
+      "role": "roles/storage.admin"
+    }
+  ],
+  "etag": "BwYm63ngZrA=",
+  "version": 1
+}
