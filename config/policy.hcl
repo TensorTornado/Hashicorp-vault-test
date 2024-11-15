@@ -14,3 +14,8 @@ path "secret/metadata/*" {
 path "secret/*" {
   capabilities = ["deny"]
 }
+
+# Allow read access to list mounts and secrets engines.
+path "sys/mounts" {
+  capabilities = ["read"]
+}
