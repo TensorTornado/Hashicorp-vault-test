@@ -1,5 +1,4 @@
 # Allow read access to secrets in the 'secret/data/*' path
-# This is limited to only read secrets, not modify or delete.
 path "secret/data/*" {
   capabilities = ["read"]
 }
@@ -27,5 +26,10 @@ path "auth/token/lookup-self" {
 
 # Allow the ability to read token capabilities for the current token.
 path "sys/capabilities-self" {
+  capabilities = ["read"]
+}
+
+# Allow read access to AppRole configuration
+path "auth/approle/role/*" {
   capabilities = ["read"]
 }
