@@ -55,6 +55,30 @@
         "serviceAccount:vault-logger-svc-acct@security-jobs-439810.iam.gserviceaccount.com"
       ],
       "role": "roles/storage.admin"
+    },
+    {
+      "members": [
+        "serviceAccount:hashicorp-vault-gcp@security-jobs-439810.iam.gserviceaccount.com"
+      ],
+      "role": "roles/storage.objectAdmin"
+    },
+    {
+      "members": [
+        "serviceAccount:hashicorp-vault-gcp@security-jobs-439810.iam.gserviceaccount.com"
+      ],
+      "role": "roles/storage.objectCreator"
+    },
+    {
+      "members": [
+        "serviceAccount:hashicorp-vault-gcp@security-jobs-439810.iam.gserviceaccount.com"
+      ],
+      "role": "roles/storage.objectViewer"
+    },
+    {
+      "members": [
+        "serviceAccount:hashicorp-vault-gcp@security-jobs-439810.iam.gserviceaccount.com"
+      ],
+      "role": "roles/viewer"
     }
   ],
   "etag": "BwYm63ngZrA=",
