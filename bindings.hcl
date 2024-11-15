@@ -1,3 +1,5 @@
+project = "security-jobs-439810"
+secret_type = "service_account_key"
 bindings = [
   {
     role = "roles/iam.serviceAccountUser"
