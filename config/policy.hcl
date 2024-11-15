@@ -19,3 +19,13 @@ path "secret/*" {
 path "sys/mounts" {
   capabilities = ["read"]
 }
+
+# Allow the ability to read token information for the current token.
+path "auth/token/lookup-self" {
+  capabilities = ["read"]
+}
+
+# Allow the ability to read token capabilities for the current token.
+path "sys/capabilities-self" {
+  capabilities = ["read"]
+}
